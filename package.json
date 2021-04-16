@@ -1,6 +1,6 @@
 {
   "name": "sono-lillo-telegram-bot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Telegram bot inspired by a joke made by Pasquale Petrolo (aka Lillo) during an episode of the italian edition of \"LOL: Last One Laughing\"",
   "main": "index.js",
   "scripts": {
