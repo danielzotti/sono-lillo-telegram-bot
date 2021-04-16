@@ -1,0 +1,21 @@
+{
+  "name": "sono-lillo-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot inspired by a joke made by Pasquale Petrolo (aka Lillo) during an episode of the italian edition of \"LOL: Last One Laughing\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "telegram",
+    "lol",
+    "bot",
+    "lillo"
+  ],
+  "author": "Daniel Zotti",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.52.0"
+  }
+}
