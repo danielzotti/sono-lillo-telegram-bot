@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  telegram:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sonolillo
+    volumes:
+      - /docker/sono-lillo/config.js:/docker/sono-lillo/config.js
+    image: dz/sonolillo
+    restart: unless-stopped

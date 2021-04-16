@@ -1,0 +1,8 @@
+deploy:
+  stage: deploy
+  environment: Production
+  script: "docker-compose -f docker-compose.yml -p sonolillo up -d --build"
+  only:
+    - deploy
+  tags:
+    - "contabo"
